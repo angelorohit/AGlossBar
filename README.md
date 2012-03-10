@@ -18,6 +18,13 @@ Depending on the user's needs, this may involve modifying some existing classes 
 * Progress bar empty color (add classes for .aglossbar.outer.colorname)
 * Progress bar fill color (add classes for .aglossbar.inner.colorname)
 
+# Compatible Browsers #
+#### AGlossBar has been tested on: ####
+* Chrome 17.0
+* Safari 5.1.2
+* Firefox 10.0.2
+* Opera 11.6
+
 # Contact #
 Feel free to send any feedback, issues or suggestions to:
 angelorohit[at]gmail[dot]com
