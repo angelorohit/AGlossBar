@@ -114,13 +114,10 @@
 .aglossbar.inner.deepred {
 	background-color: #ff0000;	
 }
-.aglossbar.inner.flourescent {
-	background-color: #f1ff00;
-}
 .aglossbar.inner.skyblue {
 	background-color: #00A7FF;
 }
-.aglossbar.inner.yellow-green {
+.aglossbar.inner.fluorescent {
 	background: rgb(255,245,0); /* Old browsers */
 	background: -moz-linear-gradient(left, rgba(255,245,0,1) 0%, rgba(0,255,39,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,245,0,1)), color-stop(100%,rgba(0,255,39,1))); /* Chrome,Safari4+ */
