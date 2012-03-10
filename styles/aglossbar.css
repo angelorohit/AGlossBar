@@ -1,0 +1,132 @@
+
+/*
+ Copyright (c) 2011 Angelo Rohit Joseph Pulikotil
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+*/
+
+.aglossbar {		
+	position: relative;	
+}
+/* Adjust the border radius as you see fit */
+.aglossbar.border{		
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	border-radius: 22px;
+}
+.aglossbar.outer {		
+	position: absolute;
+	left: 0px;
+	top: 0px;		
+}
+.aglossbar.inner-container {
+	position:absolute;
+	left: 0px;
+	top: 0px;		
+	overflow: hidden;
+		
+	float: left;
+}
+.aglossbar.cover {	
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+	background: -moz-linear-gradient(top, rgba(192,192,192,0.76) 0%, rgba(24,24,24,0.38) 59%, rgba(96,96,96,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(192,192,192,0.76)), color-stop(59%,rgba(24,24,24,0.38)), color-stop(100%,rgba(96,96,96,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(192,192,192,0.76) 0%,rgba(24,24,24,0.38) 59%,rgba(96,96,96,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(192,192,192,0.76) 0%,rgba(24,24,24,0.38) 59%,rgba(96,96,96,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(192,192,192,0.76) 0%,rgba(24,24,24,0.38) 59%,rgba(96,96,96,0) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(192,192,192,0.76) 0%,rgba(24,24,24,0.38) 59%,rgba(96,96,96,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2c0c0c0', endColorstr='#00606060',GradientType=0 ); /* IE6-9 */
+}
+.aglossbar.text-container {	
+	vertical-align: middle;
+	display: table-cell;		
+}
+.aglossbar.text {		
+	/* Adjust font style here or create new classes */
+	font-family: Impact, Charcoal, sans-serif;
+	color: white;	
+	-webkit-user-select: none;
+	-webkit-user-drag: none;	
+}
+/* Font sizes */
+/* Add more font size classes as you see fit */
+.aglossbar.text.normalfont {
+	font-size: 20px;
+}
+.aglossbar.text.smallfont {
+	font-size: 14px;
+}
+/* Bar Sizes */
+/* Add more size classes as you see fit */
+.aglossbar.normal {
+	width: 290px;
+	height: 28px;
+}
+.aglossbar.small {
+	width: 200px;
+	height: 20px;
+}
+/* Color schemes */
+/* Add more inner and outer and text schemes as you see fit */
+.aglossbar.text.deepred {
+	color: #FFC0C0;
+}
+.aglossbar.text.white {
+	color: #ffffff;
+}
+.aglossbar.text.turquoise {
+	color: #90FCFF;
+}
+.aglossbar.text.darkgray {
+	color: #2F2F2F;
+}
+.aglossbar.outer.deepred {
+	background-color: #FFA6A6;
+}
+.aglossbar.outer.gray {
+	background-color: #666666;
+}
+.aglossbar.outer.white {
+	background-color: #ffffff;
+}
+.aglossbar.inner.white {
+	background-color: #ffffff;
+}
+.aglossbar.inner.deepred {
+	background-color: #ff0000;	
+}
+.aglossbar.inner.flourescent {
+	background-color: #f1ff00;
+}
+.aglossbar.inner.skyblue {
+	background-color: #00A7FF;
+}
+.aglossbar.inner.yellow-green {
+	background: rgb(255,245,0); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(255,245,0,1) 0%, rgba(0,255,39,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,245,0,1)), color-stop(100%,rgba(0,255,39,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(255,245,0,1) 0%,rgba(0,255,39,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(255,245,0,1) 0%,rgba(0,255,39,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(255,245,0,1) 0%,rgba(0,255,39,1) 100%); /* IE10+ */
+	background: linear-gradient(left, rgba(255,245,0,1) 0%,rgba(0,255,39,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff500', endColorstr='#00ff27',GradientType=1 ); /* IE6-9 */
+}
