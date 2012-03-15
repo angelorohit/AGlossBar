@@ -11,6 +11,8 @@
   
   <link rel="stylesheet" href="styles/main.css" type="text/css" />
   <link rel="stylesheet" href="styles/aglossbar.css" type="text/css" />
+  
+  <script type="text/javascript" src="js/animate.js"></script>
 </head>
 
 <body>
@@ -22,39 +24,40 @@
 		<!-- Red Progress Bar -->
 		<div class="aglossbar normal" align="center">
 			<div class="aglossbar border outer deepred normal"></div>
-			<div class="aglossbar inner-container normal" style="width: 145px;">
+			<div id="progressBar1" class="aglossbar inner-container normal" style="width: 0%;">
 				<div class="aglossbar border inner deepred normal"></div>
 			</div>
 			<div class="aglossbar border cover normal"></div>
 			<div class="aglossbar text-container normal">
-				<div class="aglossbar text deepred normalfont">50%</div>
+				<div id="progressBar1Text" class="aglossbar text deepred normalfont">0%</div>
 			</div>
 		</div>	
-		<br>		
+		<br>			
 		<!-- Sky Blue Progress Bar -->
 		<div class="aglossbar normal" align="center">
 			<div class="aglossbar border outer white normal"></div>
-			<div class="aglossbar inner-container normal" style="width: 145px;">
+			<div id="progressBar2" class="aglossbar inner-container normal" style="width: 0%;">
 				<div class="aglossbar border inner skyblue normal"></div>
 			</div>
 			<div class="aglossbar border cover normal"></div>
 			<div class="aglossbar text-container normal">
-				<div class="aglossbar text turquoise normalfont">50%</div>
+				<div id="progressBar2Text" class="aglossbar text white normalfont">0%</div>
 			</div>
 		</div>	
 		<br>
 		<!-- Fluorescent Progress Bar -->
 		<div class="aglossbar normal" align="center">
 			<div class="aglossbar border outer gray normal"></div>
-			<div class="aglossbar inner-container normal" style="width: 217.5px;">
+			<div id="progressBar3" class="aglossbar inner-container normal" style="width: 0%;">
 				<div class="aglossbar border inner fluorescent normal"></div>
 			</div>
 			<div class="aglossbar border cover normal"></div>			
 			<div class="aglossbar text-container normal">
-				<div class="aglossbar text white normalfont">75%</div>
+				<div id="progressBar3Text" class="aglossbar text white normalfont">0%</div>
 			</div>
 		</div>	
 		<br>
+		<span id="animateBtn" class="button white" onclick="animateProgressBars()">Animate!</span>
 		<hr>
 		<!-- Credit info -->
 		<div align="left">
@@ -70,7 +73,7 @@
 		<div class="rectanglestrip">	
 			<span style="color: #222222; font: 14px /100% Arial, Helvetica, sans-serif;">Visit me at</span>
 			<span class="button cutout"><a href="http://angelorohit.blogspot.com" target="_blank">angelorohit.blogspot.com</a></span>
-			<a href="http://www.twitter.com/angelorohit" title="Follow me on Twitter" style="margin:10px 0px 10px 0px;"><img src="http://farm5.static.flickr.com/4072/4370286285_7089f8456f_o.png" width="100px" height="74px" alt="Follow me on Twitter"></img></a>								
+			<a href="http://www.twitter.com/angelorohit" target="_blank" title="Follow me on Twitter" style="margin:10px 0px 10px 0px;"><img src="http://farm5.static.flickr.com/4072/4370286285_7089f8456f_o.png" width="100px" height="74px" alt="Follow me on Twitter"></img></a>								
 		</div>
 	</div>
 </body>
